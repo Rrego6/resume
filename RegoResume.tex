@@ -1,27 +1,30 @@
 %Raoul Rego's CV
-
-\documentclass[line, margin]{res}
-\usepackage{hyperref}
+\documentclass[line, margin]{resume}
 
 \begin{document}
 
+\section{Personal Information}
 \name{Raoul A. Rego}
 
-\address{402 Roberts Way\\Rincon, GA 31326\\ (912) 346 6060\\ \href{mailto:rrego@gatech.edu}{\textbf{rrego@gatech.edu}}}
-
-\begin{resume}
+\contact{402 Roberts Way}{Rincon, GA 31326} {(912) 346-6060}{\href{rrego@gatech.edu}{mailto:rrego@gatech.edu}}
 
 \section{Education}
-\textbf{Georgia Institute of Technology} \hfill Anticipated Graduation: May 2018 \\
-3rd year candidate for Bachelors of Science in Computer Science
+
+% \textbf{Georgia Institute of Technology} \hfill Anticipated Graduation: May 2018 \\
+3rd year candidate for Bachelors of Science in Computer Science\\
 
 \section{Skills}
+
+\begin{tabular}{l l l l} Java & Android \& iOS development & JavaScript & HTML &
+XML & JSON & SOAP & REST \end{tabular}
+
 \textbf{Languages:} Java (Android), PHP, Ruby (Rails), Objective-C (iOS), C/C++/C\#, Python, LaTeX, PL/SQL, JavaScript (jQuery, Node.js, React, D3), HTML/CSS, Bash, ARM assembly, Perl \\
+
 \textbf{Misc Tools:} Vim, Git, Gradle, spreadsheet applications, GNU/Linux (systemd, cron, shell scripting), Vagrant, PGP, Scrum methodology\\
 \url{https://github.com/Rrego6}
 
 \section{Experience}
-\textbf{Dell} \hfill Summer 2016 \\
+\datedsubsection{Dell}{Summer 2016}
 \textit{Dell Financial Services IT Intern} \\
 Wrote scripts for deploying code to test environments \\
 Wrote .NET web services \\
@@ -55,12 +58,10 @@ Install packager/automator for Windows with online dashboard\\
 Tron lightcycle game clone for Nintendo DS \\
 Setup linux based dorm room security system 
 
-
 \section{Other}
 WREK radio station operator and engineering team member \hfill Jan 2016 - present \\
 Enercage Research project member\\
 Recipient of Georgia Pacific National Merit Scholarship \\
 Boy Scouts of America Eagle Scout recipient \hfill Jan 2012 \\
 
-\end{resume}
 \end{document}
