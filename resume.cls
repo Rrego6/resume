@@ -4,6 +4,7 @@
 \ProvidesClass{resume}[2017/01/29 Custom class for resume]
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
+\usepackage{fullpage}
 
 \titleformat{\section}         % Customise the \section command 
   {\Large\scshape\raggedright} % Make the \section headers large (\Large),
@@ -26,7 +27,7 @@
 
 \newcommand{\contact}[5]{
     #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
-    {\Large} #4 \ {\Large} #5
+    {\large\textperiodcentered} #4 \ {\Large} #5
 }
 
 \newcommand{\workitems}[3] {
