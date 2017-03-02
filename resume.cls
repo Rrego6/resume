@@ -1,9 +1,13 @@
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
+\pagenumbering{gobble}
 
 \ProvidesClass{resume}[2017/01/29 Custom class for resume]
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
+\RequirePackage{paralist}
+\usepackage{parskip}
+\usepackage{enumitem}
 \RequirePackage[margin=.5in]{geometry}
 
 \titleformat{\section}         % Customise the \section command 
@@ -13,21 +17,37 @@
   {}                           % Can be used to insert code before the heading
 [\titlerule] % Inserts a horizontal line after the heading
 
-\newcommand{\datedsection}[2]{%
-  \section[#1]{#1 \hfill #2}%
+\titlespacing\section{0pt}{3pt}{2pt}
+
+\titlespacing\subsection{0pt}{\parskip}{-\parskip}
+\titleformat*{\subsection}{\bfseries}
+%\titlespacing\subsection{0pt}{0pt}{0pt}
+
+\newcommand{\joblocation}[2]{
+\vspace{-2px}
+\subsection[#1]{#1\hfill#2}
 }
 
-\newcommand{\datedsubsection}[2]{%
-  \subsection[#1]{#1 \hfill #2}%
+\newcommand{\titledate}[2]{
+\begin{flushright}
+\vspace{-2px}
+\textit{#1}\hfill#2
+\end{flushright}
 }
+
+\newcommand{\titledatedescrip}[3]{\vspace{-2px}\textit{#1}\hfill#2\vspace{-2px}\\#3
+}
+
+
+\usepackage{parskip}
 
 \newcommand{\name}[1]{
-  \centerline{\huge{#1}}
+  \centerline{\LARGE{#1}}
 }
 
-\newcommand{\contact}[5]{
+\newcommand{\contact}[6]{
     #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
-    {\large\textperiodcentered} #4 \ {\large} #5
+    {\large\textperiodcentered} #4 \ {\large\textperiodcentered} #5 {\large} #6
 }
 
 \newcommand{\workitems}[3] {
@@ -37,3 +57,18 @@
 	\item #3
 	\end{itemize}
 }
+
+% \newenvironment{myitemize}
+% { \begin{itemize}
+% 	\setlist{nosep, topsep=0pt}
+% 	\setlength{\itemsep}{0pt}
+% 	\setlength{\parskip}{0pt}
+% 	\setlength{\parsep}{0pt}     }
+% { \end{itemize}                  } 
+
+
+\newenvironment{myitemize}
+{ 
+	\vspace{-5px}
+	\begin{compactitem} }
+{ \end{compactitem}                  } 
