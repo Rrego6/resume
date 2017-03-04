@@ -1,0 +1,83 @@
+Education
+=========
+
+**Georgia Institute of Technology** August 2013 - May 2018\
+Candidate for Bachelor of Science in Computer Science
+
+Skills
+======
+
+  ---------------------------- ---------------------- --------------- ------ ---------- ------------
+  Android & iOS development    Angular/React/jQuery   PL/SQL          Java   Git        C/C++/C\#
+  Bash/Python/Perl scripting   NodeJS/Apache/GNIX     Qt/GTK+         PHP    .NET       LaTeX
+  GNU/Linux administration     Scrum methodology      Ruby on Rails   VHDL   Selenium   HTML5/CSS3
+  ---------------------------- ---------------------- --------------- ------ ---------- ------------
+
+Experience
+==========
+
+Writing many web applications to display campus map data for employees,
+replacing their printed maps
+
+Created login system using Georgia Tech IAM to control employee map read
+and write access
+
+Wrote deployment scripts to greatly expedite deployment to test
+environments
+
+Upgraded .NET applications to use TLS 1.2, reenabling Experian credit
+checking integration
+
+Created web application to bundle tools/permissions to expedite
+onboarding using NodeJS, Angular, and Pure
+
+Implemented significant functionality for DFS applications in .NET and
+PL/SQL
+
+Wrote RESTful API functions in PHP for mobile and web applications to
+call
+
+Helped to design Android/iOS architecture and wrote significant
+functionality and customs views
+
+Generated and parsed XML and JSON in PHP and JavaScript
+
+Wrote Android/iOS unit tests significantly decreasing manual testing
+time
+
+Wrote Python/Perl/Bash hooks for GIT to verify code quality
+
+Projects and Interests
+======================
+
+Maintain and update website to display announcements and currently
+scheduled shows
+
+Migrating old computers to virtuals machines hosted on a server running
+XenServer
+
+Perform system administration tasks for Linux machines running our
+websites and mail server
+
+Radio DJ for “Rock, Rhythm, and Roll” sound block
+
+Wrote significant portions of Raspberry Pi TCP server code in C++
+
+Created discovery server for client to find Raspberry Pi systems on the
+network
+
+Added functionality to display Raspberry Pi system status on an LCD
+
+Wrote UART communication code to communicate with chip controlling rat
+cage
+
+Projects and Other Achievements
+-------------------------------
+
+Portable 2G/GPS tracking device
+
+Georgia Tech Android portal
+
+“Light cycle” game for Nintendo DS
+
+Boy Scouts of America Eagle Scout recipient
