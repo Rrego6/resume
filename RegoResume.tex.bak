@@ -13,7 +13,7 @@ Candidate for Bachelor of Science in Computer Science
 \section{Skills}
 \begin{tabular}{l l l l l l}
 	Android \& iOS development & Angular/React/jQuery & PL/SQL & Java  & Git & C/C++/C\# \\
-	Bash/Python/Perl scripting & NodeJS/Apache/NGINX  & Qt/GTK+ & PHP &  .NET & LaTeX \\
+	Bash/Python/Perl scripting & NodeJS/Apache/GNIX  & Qt/GTK+ & PHP &  .NET & LaTeX \\
 	GNU/Linux administration & Scrum methodology & Ruby on Rails & VHDL & Selenium  & HTML5/CSS3
 \end{tabular}
 \section{Experience}
@@ -48,7 +48,7 @@ Candidate for Bachelor of Science in Computer Science
 \titledate{Radio DJ and Engineering team member}{January 2016 - Present} 
 \begin{myitemize}
 	\item Maintain and update website to display announcements and currently scheduled shows 
-	\item Migrating old computers to virtual machines hosted on a server running XenServer 
+	\item Migrating old computers to virtuals machines hosted on a server running XenServer 
 	\item Perform system administration tasks for Linux machines running our websites and mail server 
 	\item Radio DJ for ``Rock, Rhythm, and Roll'' sound block
 \end{myitemize}
