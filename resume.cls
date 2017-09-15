@@ -2,6 +2,9 @@
 \NeedsTeXFormat{LaTeX2e}
 \pagenumbering{gobble}
 
+\setcounter{secnumdepth}{1} % only chapter and sections will be numbered
+\setcounter{tocdepth}{3}  
+
 \ProvidesClass{resume}[2017/01/29 Custom class for resume]
 \RequirePackage{titlesec}
 \RequirePackage{hyperref}
