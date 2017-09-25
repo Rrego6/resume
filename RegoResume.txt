@@ -1,0 +1,74 @@
+Raoul A. Rego
+402 Roberts Way
+
+· Rincon, GA 31326 · (912) 346-6060 · rrego@gatech.edu · https://raoul.digital
+
+Education
+Georgia Institute of Technology
+Candidate for Bachelor of Science in Computer Science
+
+Atlanta, GA
+August 2013 - August 2017
+
+Experience
+AT&T Entertainment Group
+El Segundo, CA
+Summer Intern
+June 2017 - August 2017
+• Crafted front-end for internal CDN manager using Polymer giving operators ability to view and update business rules
+• Constructed Web API to exclude problematic CDNs from client selection using Java/Spring and Couchbase
+• Created framework to generate token for CDN authentication
+Dell
+Round Rock, TX
+Dell Financial Services IT Intern
+May 2016 - August 2016
+• Wrote deployment scripts to greatly expedite deployment to test environments
+• Upgraded .NET applications to use TLS 1.2, reenabling credit score vendor integration
+• Created web application to bundle tools/permissions to expedite onboarding using NodeJS, Angular, and Pure CSS
+• Implemented significant functionality for applications in .NET and PL/SQL
+Nead Werx
+Atlanta, GA
+Junior Mobile Engineer
+May 2014 - December 2015
+Data driven consulting company whose primary product is an ERP solution
+• Wrote RESTful API functions in PHP for mobile and web applications to call
+• Helped to design Android/iOS architecture and wrote significant functionality and custom views
+• Generated and parsed XML and JSON in PHP and JavaScript
+• Wrote Android/iOS unit tests significantly decreasing manual testing time
+• Wrote Python/Perl/Bash hooks for GIT to verify code quality
+
+Extracurricular
+WREK radio station at Georgia Institute of Technology
+Atlanta, GA
+Webmaster, Radio DJ, & Engineering team member
+January 2016 - Present
+• Maintain and update website to display announcements and currently scheduled shows
+• Migrate old computers to virtual machines hosted on a server running XenServer
+• Wrote numerous scripts to generate and analyze logs for compliance
+• Perform system administration tasks for Linux machines running our websites and mail server
+• Radio DJ for “Psych-Out” speciality show
+EnerCage
+Undergraduate Researcher
+Research project on a wirelessly powered sensor system to analyze behavior of small animals
+• Wrote significant portions of Raspberry Pi TCP server/client code in C++
+• Created discovery server for client to find Raspberry Pi systems within network
+• Wrote UART communication code to communicate with chip controlling rat cage
+
+Atlanta, GA
+January 2016 - Present
+
+Georgia Institute of Technology Facilities Management
+Atlanta, GA
+Student Assistant
+February 2017 - May 2017
+• Wrote many web applications to display campus map data for employees, replacing their printed maps
+• Created login system using Georgia Tech IAM to control employee map read and write access
+• Created boilerplate framework to ease creation of IAM protected maps
+
+Skills
+Languages: Java, Python, JavaScript, HTML/CSS, PHP, Perl, Bash, C#, C++, C, Objective-C, PL/SQL, VHDL
+Frameworks & Platforms: jQuery, Polymer, NodeJS, Electron, Android, iOS, Spring, Apigee, .NET
+Databases: PostgreSQL, MySQL, Couchbase
+Tooling & System Administration: VIM, Docker, Vagrant, Git, XenServer
+
+
