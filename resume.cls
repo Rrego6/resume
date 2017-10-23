@@ -48,9 +48,8 @@
   \centerline{\LARGE{#1}}
 }
 
-\newcommand{\contact}[6]{
+\newcommand{\contact}[3]{
     #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
-    {\large\textperiodcentered} #4 \ {\large\textperiodcentered} #5 {\large} #6
 }
 
 \newcommand{\workitems}[3] {
