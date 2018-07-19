@@ -1,5 +1,5 @@
 \LoadClass{article}
-\NeedsTeXFormat{LaTeX2e}
+% \NeedsTeXFormat{LaTeX2e}
 \pagenumbering{gobble}
 
 \setcounter{secnumdepth}{1} % only chapter and sections will be numbered
