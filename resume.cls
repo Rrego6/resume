@@ -10,6 +10,7 @@
 \RequirePackage{hyperref}
 \RequirePackage{paralist}
 \usepackage{parskip}
+\usepackage{lmodern}
 \usepackage{enumitem}
 \RequirePackage[margin=.5in]{geometry}
 
@@ -22,23 +23,23 @@
 
 \titlespacing\section{0pt}{3pt}{2pt}
 
-\titlespacing\subsection{0pt}{\parskip}{-\parskip}
+\titlespacing\subsection{2pt}{\parskip}{-\parskip}
 \titleformat*{\subsection}{\bfseries}
 %\titlespacing\subsection{0pt}{0pt}{0pt}
 
 \newcommand{\joblocation}[2]{
-\vspace{-2px}
+\vspace{3px}
 \subsection[#1]{#1\hfill#2}
 }
 
 \newcommand{\titledate}[2]{
 \begin{flushright}
-\vspace{-2px}
+\vspace{3px}
 \textit{#1}\hfill#2
 \end{flushright}
 }
 
-\newcommand{\titledatedescrip}[3]{\vspace{-2px}\textit{#1}\hfill#2\vspace{-2px}\\#3
+\newcommand{\titledatedescrip}[3]{\vspace{3px}\textit{#1}\hfill#2\vspace{-2px}\\#3
 }
 
 
