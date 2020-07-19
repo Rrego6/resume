@@ -1,5 +1,6 @@
 %Raoul Rego's CV 
 \documentclass[line]{resume}
+\usepackage{tabularx}
 
 \begin{document}
 
@@ -18,7 +19,7 @@ I am a full stack web software engineer interested in opporunities to build exci
 \begin{myitemize}
 	\item Core developer for Magento 2 Open Source and Enterprise ecommerce applications where I have contributed bug fixes and new features
 	\item Fixed, configured, and deployed builds for packaging new internal/external releases of Magento 2
-	\item Rewrote large portions of internal semantic versioning checker tool to decrease memory usage by gigabytes and reduce execution time by an hour
+	\item Rewrote large portions of internal semantic versioning checker tool to decrease memory usage by GBs and reduce execution time by an hour
 	\item Performed numerous code reviews for contributions from 3rd party vendors and my own team.
 	\item Identified breaking and incompatible changes (BIC) for patch and minor releases and invetigated and coordinated approval process for these BIC
 	\item Wrote PHP and JS integration/unit tests and automated MFTF/Codeception end-to-end functional tests
@@ -51,11 +52,10 @@ I am a full stack web software engineer interested in opporunities to build exci
 \end{myitemize}
 
 \section{Skills}
-\begin{tabular}{l l l l l l}
-	\textbf{Languages:} PHP, Java, Python, JavaScript, Bash, HTML/CSS, C\#, C++, C, Objective-C, PL/SQL, Verilog, \LaTeX \\
-	\textbf{Frameworks \& Platforms:} Magento, jQuery, Knockout.js, RequireJS, Polymer, React, Node.js, Electron, Android, iOS, Spring, Apigee, .NET \\
-	\textbf{Databases:} PostgreSQL, MySQL, Couchbase \\
-	\textbf{Tooling \& System Administration:} Docker, Composer, Vagrant, Git, VIM, XenServer, AWS, Heroku \\
-\end{tabular}
+\begin{tabularx}{\linewidth}{X}
+	\textbf{Languages:} PHP, Java, Python, JavaScript, Bash, C, Objective-C, PL/SQL, Verilog, \LaTeX \\
+	\textbf{Frameworks \& Platforms:} Magento, jQuery, Polymer, React, Node.js, Android, iOS, Spring, .NET \\
+	\textbf{Tooling \& System Administration:} Docker, Composer, Vagrant, Git, VIM \\
+\end{tabularx}
 
 \end{document}
