@@ -21,7 +21,7 @@
   {}                           % Can be used to insert code before the heading
 [\titlerule] % Inserts a horizontal line after the heading
 
-\titlespacing\section{0pt}{3pt}{2pt}
+\titlespacing\section{0em}{1em}{1em}
 
 \titlespacing\subsection{2pt}{\parskip}{-\parskip}
 \titleformat*{\subsection}{\bfseries}
