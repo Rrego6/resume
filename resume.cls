@@ -1,4 +1,4 @@
-\LoadClass{article}
+\LoadClass[10pt]{article}
 % \NeedsTeXFormat{LaTeX2e}
 \pagenumbering{gobble}
 
@@ -28,18 +28,18 @@
 %\titlespacing\subsection{0pt}{0pt}{0pt}
 
 \newcommand{\joblocation}[2]{
-\vspace{3px}
 \subsection[#1]{#1\hfill#2}
 }
 
 \newcommand{\titledate}[2]{
-\begin{flushright}
-\vspace{3px}
-\textit{#1}\hfill#2
-\end{flushright}
+	\begin{flushright}
+	\vspace{3px}
+	\textit{#1}\hfill#2
+		\end{flushright}
 }
 
-\newcommand{\titledatedescrip}[3]{\vspace{3px}\textit{#1}\hfill#2\vspace{-2px}\\#3
+\newcommand{\titledatedescrip}[3]{
+\vspace{3px}\textit{#1}\hfill#2\vspace{-2px}\\#3
 }
 
 
