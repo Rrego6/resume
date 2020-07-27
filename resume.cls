@@ -1,4 +1,4 @@
-\LoadClass[10pt]{article}
+\LoadClass[11pt]{article}
 % \NeedsTeXFormat{LaTeX2e}
 \pagenumbering{gobble}
 
@@ -21,7 +21,7 @@
   {}                           % Can be used to insert code before the heading
 [\titlerule] % Inserts a horizontal line after the heading
 
-\titlespacing\section{0em}{1em}{1em}
+\titlespacing\section{0em}{8px}{3px}
 
 \titlespacing\subsection{2pt}{\parskip}{-\parskip}
 \titleformat*{\subsection}{\bfseries}
