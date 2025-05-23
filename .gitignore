@@ -1,3 +1,6 @@
 *.log
 *.out
 *.aux
+venv
+output
+__pycache
