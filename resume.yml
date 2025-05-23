@@ -1,0 +1,217 @@
+cv:
+  name: "Raoul Rego"
+  email: "raoulrego@gmail.com"
+  phone: "+1-9123466060"
+  website: "https://raoul.digital"
+  social_networks:
+    - network: "GitHub"
+      username: "rrego6"
+  sections:
+    education:
+      - institution: "Georgia Institute of Technology"
+        area: "Computer Science"
+        degree: "BS"
+        date:
+        end_date: "2018-12"
+    experience:
+      - company: "Microsoft"
+        position: "Software Engineer"
+        date:
+        start_date: "2022-03"
+        end_date: "present"
+        location: "Redmond, WA"
+        summary:
+        highlights:
+          - Worked to onboarded major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager Cloud platform by creating Azure deployment piplines and performance monitoring tools.
+          - Designed and developed ***Scala*** and ***Gatling*** based performance load testing project, and identified critical performance deficencies in our cloud environments.
+          - Created features with ***C#/.NET***, ***TypeScript***, and ***React*** for internal automation platform, including conversational UI chatbots, telemetry, automated ticket routing, and notifications for email and Microsoft Teams.
+          - Wrote complex dialog workflows for our chatbot, used to create over 20,000 tickets per week by thousands of users. The estimated ROI of certain workflows I created were $100k+ annually. Workflows I contributed to had an ROI $3Mil+ annually.
+          - Worked on integration of enterprise ChatGPT into our chatbot to improve the quality of responses.
+          - Collaborated with project managers to create PowerBI dashboards to indicate ROI of team’s contributions as well as the health of our platform.
+          - Added robustness features to our application, eliminating hundreds of recurring production incidents and improving reliability for users.
+      - company: "Adobe"
+        position: "Software Engineer"
+        date:
+        start_date: "2019-02"
+        end_date: "2022-03"
+        location: "Austin, TX"
+        summary:
+        highlights:
+          - Core developer for Magento 2 Open Source and Enterprise eCommerce applications using ***PHP***, ***SQL***, and ***JavaScript***
+          - Increased performance of pull request builds by rewriting internal semantic version checker to reduce memory usage by GBs and decrease execution time over an hour.
+          - Created ***TypeScript*** Github bot to ensure all pull requests conform to “Definition of Done” guidelines. This bot is used on every internal project at Magento.
+          - Fixed, configured, and ran publishing builds to deploy releases of Magento for internal testing and public releases. These public releases are run by over 250,000 active online stores.
+          - Improved code quality of core and infrastructure codebases by performing numerous code reviews on contributions from 3rd party vendors and my own team.
+          - Upgraded ***PayPal*** integration to latest SDK. This is the most utilized payment solution on our platform and thus will be used by thousands of stores.
+          - Achieved the Magento Associate Certification, a demonstration of developer competency for the Magento 2 Open Source platform
+      - company: "AT&T"
+        position: "Entertainment Group Summer Intern"
+        date:
+        start_date: "2017-06"
+        end_date: "2017-08"
+        location: "El Segundo, CA"
+        summary: Java/Spring and JavaScript/Polymer Development
+      - company: "Dell"
+        position: "Dell Financial Services IT Intern"
+        date:
+        start_date: "2016-05"
+        end_date: "2016-08"
+        location: "Round Rock, TX"
+        summary: C# .NET development
+      - company: "Nead Werx"
+        position: "Junior Mobile Engineer"
+        date:
+        start_date: "2014-05"
+        end_date: "2015-12"
+        location: "Atlanta, GA"
+        summary: Android Java, Objective-C iOS, and PHP middleware development
+    skills:
+      - label: "Programming Languages"
+        details: "PHP, Java, Scala, Python, JavaScript, C, Objective-C, PL/SQL"
+      - label: "Frameworks & Platforms"
+        details: "Magento, jQuery, Polymer, React, Node.js, Android, iOS, Spring, .NET, Adobe Experience Manager"
+      - label: "Tooling"
+        details: "Docker, Composer, Vagrant, Git, VIM"
+design:
+  theme: "engineeringclassic"
+  page:
+    size: "us-letter"
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: "rgb(0, 0, 0)"
+    name: "rgb(0, 79, 144)"
+    connections: "rgb(0, 79, 144)"
+    section_titles: "rgb(0, 79, 144)"
+    links: "rgb(0, 79, 144)"
+    last_updated_date_and_page_numbering: "rgb(128, 128, 128)"
+  text:
+    font_family: "Raleway"
+    font_size: "9pt"
+    leading: "0.5em"
+    alignment: "justified"
+    date_and_location_column_alignment: "right"
+  links:
+    underline: false
+    use_external_link_icon: false
+  header:
+    name_font_family: "Raleway"
+    name_font_size: "30pt"
+    name_bold: false
+    small_caps_for_name: false
+    photo_width: "3.5cm"
+    vertical_space_between_name_and_connections: "0.7cm"
+    vertical_space_between_connections_and_first_section: "0.7cm"
+    horizontal_space_between_connections: "0.5cm"
+    connections_font_family: "Raleway"
+    separator_between_connections: ""
+    use_icons_for_connections: true
+    use_urls_as_placeholders_for_connections: false
+    make_connections_links: true
+    alignment: "left"
+  section_titles:
+    type: "with-partial-line"
+    font_family: "Raleway"
+    font_size: "1.4em"
+    bold: false
+    small_caps: false
+    line_thickness: "0.5pt"
+    vertical_space_above: "0.5cm"
+    vertical_space_below: "0.3cm"
+  entries:
+    date_and_location_width: "4.15cm"
+    left_and_right_margin: "0.2cm"
+    horizontal_space_between_columns: "0.1cm"
+    vertical_space_between_entries: "1.2em"
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: "•"
+    nested_bullet: "-"
+    top_margin: "0.25cm"
+    left_margin: "0cm"
+    vertical_space_between_highlights: "0.25cm"
+    horizontal_space_between_bullet_and_highlight: "0.5em"
+    summary_left_margin: "0cm"
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, AREA -- LOCATION"
+      degree_column_template: "**DEGREE**"
+      degree_column_width: "1cm"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    normal_entry:
+      main_column_first_row_template: "**NAME** -- **LOCATION**"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    experience_entry:
+      main_column_first_row_template: "**POSITION**, COMPANY -- LOCATION"
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: "DATE"
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: "DATE"
+locale:
+  language: "en"
+  phone_number_format: "national"
+  page_numbering_template: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: "month"
+  months: "months"
+  year: "year"
+  years: "years"
+  present: "present"
+  to: "–"
+  abbreviations_for_months:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "May"
+    - "June"
+    - "July"
+    - "Aug"
+    - "Sept"
+    - "Oct"
+    - "Nov"
+    - "Dec"
+  full_names_of_months:
+    - "January"
+    - "February"
+    - "March"
+    - "April"
+    - "May"
+    - "June"
+    - "July"
+    - "August"
+    - "September"
+    - "October"
+    - "November"
+    - "December"
+rendercv_settings:
+  date: "2025-03-01"
+  bold_keywords: []
