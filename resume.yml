@@ -2,17 +2,18 @@ cv:
   name: "Raoul Rego"
   email: "raoulrego@gmail.com"
   phone: "+1-9123466060"
-  website: "https://rrego6.github.io"
+  website: "https://rrego6.github.io/"
   social_networks:
     - network: "GitHub"
       username: "rrego6"
   sections:
-    education:
-      - institution: "Georgia Institute of Technology"
-        area: "Computer Science"
-        degree: "BS"
-        date:
-        end_date: "2018-12"
+    skills:
+      - label: "Programming Languages"
+        details: "C#, PHP, Java, Scala, Python, JavaScript/TypeScript, C, Objective-C, PL/SQL"
+      - label: "Frameworks & Platforms"
+        details: ".NET, Magento, React, Node.js, jQuery, Polymer, Android, iOS, Spring, Adobe Experience Manager"
+      - label: "Tooling"
+        details: "Docker, Composer, Vagrant, Git, VIM"
     experience:
       - company: "Microsoft"
         position: "Software Engineer"
@@ -22,7 +23,7 @@ cv:
         location: "Redmond, WA"
         summary:
         highlights:
-          - Worked to onboarded major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager Cloud platform by creating Azure deployment piplines and performance monitoring tools.
+          - Worked to onboarded major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager Cloud platform by creating Azure deployment pipelines and performance monitoring tools.
           - Designed and developed ***Scala*** and ***Gatling*** based performance load testing project, and identified critical performance deficencies in our cloud environments.
           - Created features with ***C#/.NET***, ***TypeScript***, and ***React*** for internal automation platform, including conversational UI chatbots, telemetry, automated ticket routing, and notifications for email and Microsoft Teams.
           - Wrote complex dialog workflows for our chatbot, used to create over 20,000 tickets per week by thousands of users. The estimated ROI of certain workflows I created were $100k+ annually. Workflows I contributed to had an ROI $3Mil+ annually.
@@ -65,13 +66,12 @@ cv:
         end_date: "2015-12"
         location: "Atlanta, GA"
         summary: Android Java, Objective-C iOS, and PHP middleware development
-    skills:
-      - label: "Programming Languages"
-        details: "PHP, Java, Scala, Python, JavaScript, C, Objective-C, PL/SQL"
-      - label: "Frameworks & Platforms"
-        details: "Magento, jQuery, Polymer, React, Node.js, Android, iOS, Spring, .NET, Adobe Experience Manager"
-      - label: "Tooling"
-        details: "Docker, Composer, Vagrant, Git, VIM"
+    education:
+      - institution: "Georgia Institute of Technology"
+        area: "Computer Science"
+        degree: "BS"
+        date:
+        end_date: "2018-12"
 design:
   theme: "engineeringclassic"
   page:
@@ -103,7 +103,7 @@ design:
     name_font_size: "30pt"
     name_bold: false
     small_caps_for_name: false
-    photo_width: "3.5cm"
+    photo_width: "3.0cm"
     vertical_space_between_name_and_connections: "0.7cm"
     vertical_space_between_connections_and_first_section: "0.7cm"
     horizontal_space_between_connections: "0.5cm"
