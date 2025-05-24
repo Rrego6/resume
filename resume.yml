@@ -3,15 +3,12 @@ cv:
   email: "raoulrego@gmail.com"
   phone: "+1-9123466060"
   website: "https://rrego6.github.io/"
-  social_networks:
-    - network: "GitHub"
-      username: "rrego6"
   sections:
     skills:
       - label: "Programming Languages"
         details: "C#, PHP, Java, Scala, Python, JavaScript/TypeScript, C, Objective-C, PL/SQL"
       - label: "Frameworks & Platforms"
-        details: ".NET, Magento, React, Node.js, jQuery, Polymer, Android, iOS, Spring, Adobe Experience Manager"
+        details: ".NET, Magento, React, Node.js, jQuery, Polymer, Android, iOS, Spring, Adobe Experience Manager, Azure"
       - label: "Tooling"
         details: "Docker, Composer, Vagrant, Git, VIM"
     experience:
@@ -23,13 +20,13 @@ cv:
         location: "Redmond, WA"
         summary:
         highlights:
-          - Worked to onboarded major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager Cloud platform by creating Azure deployment pipelines and performance monitoring tools.
-          - Designed and developed ***Scala*** and ***Gatling*** based performance load testing project, and identified critical performance deficencies in our cloud environments.
+          - Worked to onboard major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager cloud platform by creating Azure deployment pipelines and performance monitoring tools.
+          - Designed and developed ***Scala*** based performance load testing project, and identified critical performance deficiencies in our cloud environments.
           - Created features with ***C#/.NET***, ***TypeScript***, and ***React*** for internal automation platform, including conversational UI chatbots, telemetry, automated ticket routing, and notifications for email and Microsoft Teams.
           - Wrote complex dialog workflows for our chatbot, used to create over 20,000 tickets per week by thousands of users. The estimated ROI of certain workflows I created were $100k+ annually. Workflows I contributed to had an ROI $3Mil+ annually.
           - Worked on integration of enterprise ChatGPT into our chatbot to improve the quality of responses.
           - Collaborated with project managers to create PowerBI dashboards to indicate ROI of team’s contributions as well as the health of our platform.
-          - Added robustness features to our application, eliminating hundreds of recurring production incidents and improving reliability for users.
+          - Added robustness features to our applications, eliminating hundreds of recurring production incidents and improving reliability for users.
       - company: "Adobe"
         position: "Software Engineer"
         date:
@@ -38,9 +35,9 @@ cv:
         location: "Austin, TX"
         summary:
         highlights:
-          - Core developer for Magento 2 Open Source and Enterprise eCommerce applications using ***PHP***, ***SQL***, and ***JavaScript***
-          - Increased performance of pull request builds by rewriting internal semantic version checker to reduce memory usage by GBs and decrease execution time over an hour.
-          - Created ***TypeScript*** Github bot to ensure all pull requests conform to “Definition of Done” guidelines. This bot is used on every internal project at Magento.
+          - Core developer for Magento 2 Open Source and Enterprise e-commerce applications using ***PHP***, ***SQL***, and ***JavaScript***
+          - Increased performance of pull request builds by rewriting internal tool to reduce memory usage by GBs and decrease execution time over an hour. This build is used on all code contributions to the Magento project.
+          - Created ***TypeScript*** Github Pull Request bot to ensure all code contributions met Adobe standards. This bot is used on every internal project at Magento.
           - Fixed, configured, and ran publishing builds to deploy releases of Magento for internal testing and public releases. These public releases are run by over 250,000 active online stores.
           - Improved code quality of core and infrastructure codebases by performing numerous code reviews on contributions from 3rd party vendors and my own team.
           - Upgraded ***PayPal*** integration to latest SDK. This is the most utilized payment solution on our platform and thus will be used by thousands of stores.
@@ -51,21 +48,18 @@ cv:
         start_date: "2017-06"
         end_date: "2017-08"
         location: "El Segundo, CA"
-        summary: Java/Spring and JavaScript/Polymer Development
       - company: "Dell"
         position: "Dell Financial Services IT Intern"
         date:
         start_date: "2016-05"
         end_date: "2016-08"
         location: "Round Rock, TX"
-        summary: C# .NET development
       - company: "Nead Werx"
         position: "Junior Mobile Engineer"
         date:
         start_date: "2014-05"
         end_date: "2015-12"
         location: "Atlanta, GA"
-        summary: Android Java, Objective-C iOS, and PHP middleware development
     education:
       - institution: "Georgia Institute of Technology"
         area: "Computer Science"
@@ -90,8 +84,8 @@ design:
     links: "rgb(0, 79, 144)"
     last_updated_date_and_page_numbering: "rgb(128, 128, 128)"
   text:
-    font_family: "Raleway"
-    font_size: "9pt"
+    font_family: "Mukta"
+    font_size: "10pt"
     leading: "0.5em"
     alignment: "justified"
     date_and_location_column_alignment: "right"
@@ -99,7 +93,7 @@ design:
     underline: false
     use_external_link_icon: false
   header:
-    name_font_family: "Raleway"
+    name_font_family: "Mukta"
     name_font_size: "30pt"
     name_bold: false
     small_caps_for_name: false
@@ -107,7 +101,7 @@ design:
     vertical_space_between_name_and_connections: "0.7cm"
     vertical_space_between_connections_and_first_section: "0.7cm"
     horizontal_space_between_connections: "0.5cm"
-    connections_font_family: "Raleway"
+    connections_font_family: "Mukta"
     separator_between_connections: ""
     use_icons_for_connections: true
     use_urls_as_placeholders_for_connections: false
@@ -115,7 +109,7 @@ design:
     alignment: "left"
   section_titles:
     type: "with-partial-line"
-    font_family: "Raleway"
+    font_family: "Mukta"
     font_size: "1.4em"
     bold: false
     small_caps: false
@@ -136,7 +130,7 @@ design:
     nested_bullet: "-"
     top_margin: "0.25cm"
     left_margin: "0cm"
-    vertical_space_between_highlights: "0.25cm"
+    vertical_space_between_highlights: "1em"
     horizontal_space_between_bullet_and_highlight: "0.5em"
     summary_left_margin: "0cm"
   entry_types:
