@@ -20,8 +20,8 @@ cv:
         location: "Redmond, WA"
         summary:
         highlights:
-          - Worked to onboard major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager cloud platform by creating Azure deployment pipelines and performance monitoring tools.
-          - Designed and developed ***Scala*** based performance load testing project, and identified critical performance deficiencies in our cloud environments.
+          - Worked to onboard major Microsoft websites like ***Outlook.com*** and the ***Microsoft Store*** onto the Adobe Experience Manager cloud platform by creating ***Azure*** deployment pipelines and performance monitoring tools.
+          - Designed and developed ***Scala*** based performance load testing project and identified critical performance deficiencies in our cloud environments.
           - Created features with ***C#/.NET***, ***TypeScript***, and ***React*** for internal automation platform, including conversational UI chatbots, telemetry, automated ticket routing, and notifications for email and Microsoft Teams.
           - Wrote complex dialog workflows for our chatbot, used to create over 20,000 tickets per week by thousands of users. The estimated ROI of certain workflows I created were $100k+ annually. Workflows I contributed to had an ROI $3Mil+ annually.
           - Worked on integration of enterprise ChatGPT into our chatbot to improve the quality of responses.
@@ -36,8 +36,8 @@ cv:
         summary:
         highlights:
           - Core developer for Magento 2 Open Source and Enterprise e-commerce applications using ***PHP***, ***SQL***, and ***JavaScript***
-          - Increased performance of pull request builds by rewriting internal tool to reduce memory usage by GBs and decrease execution time over an hour. This build is used on all code contributions to the Magento project.
-          - Created ***TypeScript*** Github Pull Request bot to ensure all code contributions met Adobe standards. This bot is used on every internal project at Magento.
+          - Increased performance of pull request builds by rewriting internal [tool](https://github.com/magento/magento-semver) to reduce memory usage by GBs and decrease execution time by over an hour. This build is used on all code contributions to the Magento project.
+          - Created ***TypeScript*** GitHub Pull Request bot to ensure all code contributions met Adobe standards. This bot is used on every internal project at Magento.
           - Fixed, configured, and ran publishing builds to deploy releases of Magento for internal testing and public releases. These public releases are run by over 250,000 active online stores.
           - Improved code quality of core and infrastructure codebases by performing numerous code reviews on contributions from 3rd party vendors and my own team.
           - Upgraded ***PayPal*** integration to latest SDK. This is the most utilized payment solution on our platform and thus will be used by thousands of stores.
@@ -87,7 +87,7 @@ design:
     font_family: "Mukta"
     font_size: "10pt"
     leading: "0.5em"
-    alignment: "justified"
+    alignment: "justified-with-no-hyphenation"
     date_and_location_column_alignment: "right"
   links:
     underline: false
